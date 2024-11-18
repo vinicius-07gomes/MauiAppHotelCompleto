@@ -57,6 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NovaPasta\**" />
+	  <Compile Remove="NovaPasta\**" />
+	  <EmbeddedResource Remove="NovaPasta\**" />
+	  <MauiCss Remove="NovaPasta\**" />
+	  <MauiXaml Remove="NovaPasta\**" />
+	  <None Remove="NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\Kalam-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Light.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Regular.ttf" />
